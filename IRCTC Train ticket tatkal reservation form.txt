@@ -1,0 +1,208 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Train Ticket TaTkal form </title>
+        <meta http-equiv="author" content="lokesh">
+        <meta name="viewreport" content="width:device-width">
+    </head>
+    <body>
+        <h4 style="text-align:center;">INDIAN RAILWAYS</h4>
+        <H3 style="text-align:center;"><bold>TATKAL</bold> reservation/cancellation form</H3><img src="https://www.trains.com/wp-content/uploads/2022/08/TRN_Indian_Railways_logo.jpg" height="50" width="50"><br> <h5 style="text-align:end;"> SI.NO.....</h5>
+        <h5 style="text-align:end;">signature of the supervisor</h5>
+        <form action="">
+            <table border="4">
+                <tr>
+                    <td>IF YOU ARE THE MEDICAL PRACTIONER,please select the option
+                        
+                    </td>
+                    <td><input type="checkbox" name="medical practioner"></td>
+                </tr>
+                <tr>
+                    <td>do you Want ot upgrade without any charge 
+                        
+                    </td>
+                    <td><input type="checkbox" name="want charges"></td>
+                </tr>
+            </table>
+            
+        </table>
+        <table>
+            <tr>
+               <td> <label> trainno:</label></td>
+            <td><input type="tel" name="train.no"  placeholder="1513515" required maxlength="6"><br></td>
+            </tr>
+            <tr>
+               <td> <label>train name:</label></td>
+                <td><input type="text" name="name of train" placeholder="guruvaiyur" requried> <br></td>
+            </tr>
+            <tr>
+                <td><label>DATE of journey:</label></td>
+            <td><input type="date" name="doj" required> <br></td>
+            </tr>
+            <tr>
+                <td><label>no of birth seats:</label></td>
+               <td> <input type="tel" name=" no of seats" maxlength="100" requried><br></td>
+            </tr>
+            <tr>
+                   
+            <td><label>boarding at</label></td>
+            <td><input type="text" name="depature place" required><br></td>
+            </tr>
+            <tr>
+                <td><label>mobile number of the passenger </label></td>
+            <td><input type="tel" name=" ph.no" required>(for sms purpose only)<br></td>
+            </tr>
+        
+        </table>
+        
+    <table border="7">
+        <tr>
+            <th> s.no</th>
+            <th>
+                Name in block letters:
+            </th>
+            <th>
+                nationality
+            </th>
+            <th>
+                gender:
+            </th>
+            <th>
+                choice of berth( in place of ub/mb/lb)
+            </th>
+            <th>AGE</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>
+                <input type="text" name="firstname" placeholder="raja" required><br></td>
+            <td> <select name="nationality" required>
+                <option value="INDIAN">Indian</option>
+                <option value="chinese">chinese</option>
+                <option value="pakistan">pakistan</option>
+            </select><br></td>
+            <td><select name="gender" required>
+                <option value="male">male</option>
+                <option value="female">female</option>
+                <option value="others">others</option>
+            </select><br></td>
+            <td> <select name="berth" required>
+                <option value="lower berth">lb</option>
+                <option value="middle berth">mb</option>
+                <option value="upper berth">up</option>
+            </select></td>
+            <td>
+                <input type="number" name="age" required><br></td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>            <input type="text" name="firstname" placeholder="raja" required><br></td>
+            <td> <select name="nationality" required>
+                <option value="INDIAN">Indian</option>
+                <option value="chinese">chinese</option>
+                <option value="pakistan">pakistan</option>
+            </select><br></td>
+            <td><select name="gender" required>
+                <option value="male">male</option>
+                <option value="female">female</option>
+                <option value="others">others</option>
+            </select><br></td>
+            <td> <select name="berth" required>
+                <option value="lower berth">lb</option>
+                <option value="middle berth">mb</option>
+                <option value="upper berth">up</option>
+            </select></td>
+             <td>
+                <input type="number" name="age" required><br></td>
+            
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>            <input type="text" name="firstname" placeholder="raja" required><br></td>
+            <td> <select name="nationality" required>
+                <option value="INDIAN">Indian</option>
+                <option value="chinese">chinese</option>
+                <option value="pakistan">pakistan</option>
+            </select><br></td>
+            <td><select name="gender" required>
+                <option value="male">male</option>
+                <option value="female">female</option>
+                <option value="others">others</option>
+            </select><br></td>
+            <td> <select name="berth" required>
+                <option value="lower berth">lb</option>
+                <option value="middle berth">mb</option>
+                <option value="upper berth">up</option>
+            </select></td>
+            <td><input type="number" name="age" required><br></td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td><input type="text" name="firstname" placeholder="raja" required><br></td>
+            <td> <select name="nationality" required>
+                <option value="INDIAN">Indian</option>
+                <option value="chinese">chinese</option>
+                <option value="pakistan">pakistan</option>
+            </select><br></td>
+            <td><select name="gender" required>
+                <option value="male">male</option>
+                <option value="female">female</option>
+                <option value="others">others</option>
+            </select><br></td>
+            <td> <select name="berth" required>
+                <option value="lower berth">lb</option>
+                <option value="middle berth">mb</option>
+                <option value="upper berth">up</option>
+            </select></td>
+            <td>
+                <input type="number" name="age" required><br></td>
+        </tr>
+    </table>
+    <h5>CHILDREN BELOW THE AGE OF 5 YEARS&#$40 for whom tickets will not be issued&#41;</h5>
+    <table border="7" ><tr>
+        <th>s.no</th>
+        <th>name in block</th>
+        <th>gender</th>
+        <th>age</th></tr>
+        <tr>
+            <td>1.</td>
+            <td><input type="text" name="firstname" placeholder="raja" required><br></td>
+            <td><select name="gender" required>
+                <option value="male">male</option>
+                <option value="female">female</option>
+                <option value="others">others</option>
+            </select><br></td>
+            <td><input type="number" name="AGE"></td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td><input type="text" name="firstname" placeholder="raja" required><br></td>
+            <td><select name="gender" required>
+                <option value="male">male</option>
+                <option value="female">female</option>
+                <option value="others">others</option>
+            </select><br></td>
+               <td> <input type="number" name="age" required><br></td>
+        </tr>
+        </table>
+    
+        <h5>NOTE:
+            <ol>
+                <li>maximum number of passengers per requistion</li>
+                <li>A person can giv only one requisistion</li>
+                <li>a person verify ticket anf balance before leaving the Window</li>
+                <li>choice of berths is subject to validity</li>
+                <li>Passengers book on single ticket or may get compact accommidiation in the upgraded class</li>
+                <li>During the journey any one among the passengers has to be produce any one of the prescribed proofs of  idendity</li>
+
+            </ol>
+        </h5>
+        <center>
+        <input type="submit" >
+        <input type="reset">
+    </center>
+</form>
+    </body>
+       
+</html>
+    
